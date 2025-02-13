@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon SQL bug involving the `COUNT(*)` aggregate function. The bug arises when an employee can belong to multiple departments, leading to an inflated count if the query isn't designed to handle this scenario correctly. The solution shows how to accurately count employees satisfying specific criteria even with multi-department assignments.
